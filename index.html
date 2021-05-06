@@ -11,67 +11,66 @@
 <title>Google-Homepage</title>
 </head>
 <body>
-  <nav class="top">
-    <div class="nav-left">
-      <ul>
-        <li>
-          <a href="#"><span class="p">About</span></a>
-        </li>
-        <li>
-          <a href="#"><span class="p">Store</span></a>
-        </li>
-      </ul>
-    </div>
-    <div class="nav-right">
-      <div>
-        <a href="#" class="nav-gmail"><span class="p">Gmail</span></a>
-        <a href="#" class="nav-images"><span class="p">Images</span></a>
+  <header>
+    <nav>
+      <div class="nav-text-left">
+        <a class="nav-about" id="nav-about" href="#">About</a>
+        <a class="nav-store" id="nav-store" href="#">Store</a>
       </div>
-      <div class="nav-img-links">
-        <a href="#"><img class="icon-apps" src="./SVG_PNG/apps_black_24dp.svg" alt="apps menu"/></a>
-        <a href="#"><img class="icon-account" src="./SVG_PNG/account_circle_black_36dp.svg" alt="account circle"/></a>
-      </div>  
-    </div>
-  </nav>
-  <div class="container" id="logo">
-    <img src="./SVG_PNG/googlelogo_color_272x92dp.png" alt="Google logo">
-  </div>
-  <div class="search">
-    <form>
-      <input type="text">
-      <div class="search-icons">
-        <div class="search-icon-glass">
-          <img src="./SVG_PNG/search_black_24dp.svg" alt="search">
+      <div class="nav-text-right">
+        <div class="nav-gmail-container" >
+          <a class="nav-gmail" href="#" id="nav-gmail">Gmail</a>
         </div>
-        <div class="search-icon-mic">
-          <img src="./SVG_PNG/mic_black_24dp.svg" alt="microphone">
+        <div class="nav-images-container" >
+          <a class="nav-images" href="#" id="nav-images">Images</a>
+        </div>
+        <div class="nav-img-links">
+          <a class="nav-apps" href="#"><img class="icon-apps" src="./SVG_PNG/apps_black_24dp.svg" alt="apps menu"/></a>
+          <a class="nav-account" href="#"><img class="icon-account" src="./SVG_PNG/account_circle_black_36dp.svg" alt="account circle"/></a>
         </div>
       </div>
-    </form>
-  </div>
-  <div class="search">
-    <button type="button">Google Search</button>
-    <button type="button">I'm Feeling Lucky!</button>
-  </div>
-  <footer>
-    <div class="carbon">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" class="Pb9hCb" alt="" data-iml="1620252411108" data-atf="1"> <span>Carbon neutral since 2007</span></p>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <img src="./SVG_PNG/googlelogo_color_272x92dp.png" alt="Google logo" height="92" width="272">
     </div>
-    <div class="footer-bottom"> 
-      <div class="footer-spacer"></div>
-      <div class="nav-low-left">
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
-      </div>
-      <div class="footer-spacer"></div>
-      <div class="nav-low-right">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
-      </div>
-      <div class="footer-spacer"></div>
+    <div class="search">
+      <form>
+        <input type="text">
+        <div class="search-icons">
+          <div class="search-icon-glass">
+            <img src="./SVG_PNG/search_black_24dp.svg" alt="search">
+          </div>
+          <div class="search-icon-mic">
+            <img src="./SVG_PNG/mic_black_24dp.svg" alt="microphone">
+          </div>
+        </div>
+        <div class="search-buttons">
+          <button type="button">Google Search</button>
+          <button type="button">I'm Feeling Lucky!</button>
+        </div>
+      </form>
     </div>
+  </main>
+  <div style="flex-grow: 1;"></div>
+  <footer> 
+      <div class="footer-left">
+        <a class="footer-block" href="#">Advertising</a>
+        <a class="footer-block" href="#">Business</a>
+        <a class="footer-block" href="#">How Search Works</a>
+      </div>
+      <div class="footer-center">
+        <img class="img-block"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+          class="Pb9hCb" alt="" data-iml="1620252411108" data-atf="1">
+          <span>Carbon neutral since 2007</span>
+      </div>
+      <div class="footer-right">
+        <a class="footer-block" href="#">Privacy</a>
+        <a class="footer-block" href="#">Terms</a>
+        <a class="footer-block" href="#">Settings</a>
+      </div>
   </footer>
   
   
