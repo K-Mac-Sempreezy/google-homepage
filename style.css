@@ -15,7 +15,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -56,9 +56,7 @@ input[type="text"] {
   border: 1px solid #dadada;
   border-radius: 30px;
   height: 50px;
-  font-size: 16px;
   width: 40vw;
-  font-size: inherit;
 }
 
 footer {
@@ -72,6 +70,7 @@ footer {
   width: 100vw;
   background: #f2f2f2;
   color: #70757a;
+  font-size: 1.1rem;
 }
 
 /* Class attributes */
@@ -82,8 +81,8 @@ footer {
   align-items: center;
   width: 50%;
   justify-content: flex-start;
-  font-size: 16px;
   order: 1;
+  font-size: 1.1rem;
 }
 
 .nav-about {
@@ -192,6 +191,7 @@ footer {
   min-width: 54px;
   text-align: center;
   cursor: pointer;
+  font-size: 1.1rem;
 }
 
 .footer-bottom {
