@@ -15,7 +15,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -32,7 +32,6 @@ nav {
   height: 60px;
   width: 100%;
   color: #222;
-  font-size: 1.2rem;
 }
 
 main {
@@ -71,7 +70,6 @@ footer {
   bottom: 0;
   width: 100vw;
   background: #f2f2f2;
-  font-size: 1.2rem;
   color: #70757a;
 }
 
@@ -106,7 +104,6 @@ footer {
   justify-content: flex-end;
   padding-right: 40px;
   order: 2;
-  font-size: 1rem;
 }
 
 .nav-gmail-container, .nav-images-container {
@@ -185,7 +182,6 @@ footer {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
-  font-size: 1.2em;
   color: #3c4043;
   margin: 11px 8px 11px 8px;
   padding: 20px 20px 20px 20px;
@@ -197,7 +193,6 @@ footer {
 }
 
 .footer-bottom {
-  font-size: inherit;
   color: #70757a;
   
 }
@@ -217,7 +212,6 @@ footer {
 .footer-center {
   padding: 0 10px;
   margin-right: 150px;
-  font-size: inherit;
   color: #70757a;
   order: 2;
 }
